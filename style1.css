@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("images/back6.png") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: auto;
+
+}
+
+.navbar-text{
+  
+    width: 590px;
+}
+.nav-item{
+    width: 400px;
+    font-weight: bold;
+}
+.nav-item .nav-link{
+    color: black !important;
+}
+.nav-item .nav-link:hover{
+    color: brown !important;
+   
+}
+.img{
+    width: 80px;
+    height: 60px;
+}
+.port{
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+    margin-top: 18px;
+}
+.abtmain{
+    width: 55%;
+   height: 200px;
+   margin: 0px auto;
+  margin-bottom: 20px;
+   box-shadow: 1px 1px 40px black;
+   
+}
+
+.abthead h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 15px black;
+    
+}
+.abtpara{
+    display: flex;
+    margin: 0px auto;
+   align-items: center;
+   width: 150px;
+   height: 50px;
+
+  
+}
+.abtpara p{
+    color: white;
+    text-align: center;
+      margin: 5px;
+    letter-spacing: 5px;
+   
+   
+}
+.qual{
+    color: white;
+    font-size: 24px;
+  letter-spacing: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.abtpara p a{
+    color: white;
+    text-decoration: none;
+   
+
+}
+@media screen and (max-width: 530px){
+  .abthead h1{
+      font-size: 22px;
+  }
+  .mains h1{
+      font-size: 22px;
+      font-weight: bold;
+  }
+  .abtpara p{
+    letter-spacing: normal;
+    margin: none;
+  }
+  .abtmain{
+      height: 150px;
+  }
+        .port{
+        font-size: 18px;
+    }
+    .img{
+        width: 60px;
+        height: 40px;
+    }
+    span{
+        font-size: 15px;
+    }
+  .card-header{
+      font-size: 15px;
+  }
+  
+}.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+ 
+    content: "\f067"; 
+}
+.card-body{
+
+    background-color: brown;
+    color: white;
+}
+.card-header:active{
+    background-color: brown !important;
+}
+.card-header{
+    margin: 5px;
+}
+ footer{
+     width: 100%;
+     height: 50px;
+     background-color:white;
+     margin-top: 130px; 
+ }

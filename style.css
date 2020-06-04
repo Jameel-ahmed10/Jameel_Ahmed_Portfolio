@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("images/back6.png") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: auto;
+
+}
+
+.navbar-text{
+  
+    width: 590px;
+}
+.nav-item{
+    width: 400px;
+    font-weight: bold;
+}
+.nav-item .nav-link{
+    color: black !important;
+}
+.nav-item .nav-link:hover{
+    color: brown !important;
+   
+}
+.img{
+    width: 80px;
+    height: 60px;
+}
+.port{
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+    margin-top: 18px;
+}
+@media screen and (max-width: 530px){
+    .port{
+        font-size: 18px;
+    }
+    .img{
+        width: 60px;
+        height: 40px;
+    }
+    span{
+        font-size: 15px;
+    }
+    .btn-danger{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+.px-lg-5{
+    margin-top: 150px;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top:80px;
+    margin-bottom: 100px;
+}
+
+.main .text{
+    margin-top: 100px;
+}
+.main .text h1{
+    color: white;
+    font-size: 65px;
+    text-shadow: 5px 5px 5px gray;
+    letter-spacing: 3px;
+    
+}
+.main h3{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 7px;
+}
+.main .pic img{
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+    
+}
+@media screen and (max-width: 1020px) {
+    .main .pic img{
+
+   display: none;
+
+    }
+    .main1 .pic1 img{
+        display: none;
+    }
+    .main1 .about #para{
+        width: 95%;
+        text-align: justify;
+    }
+  }
+  @media screen and (max-width: 530px) {
+    .main .text h1{
+        font-size: 45px;
+    }
+    .main1 .about #head h1{
+        font-size: 45px;
+    }
+    .main1 .about{
+        width: 1000px;
+    }
+    
+  }
+  .btn-danger{
+      background-color: brown !important;
+  }
+  .btn-outline-danger{
+    
+      color: brown;
+  }
+  .btn-outline-danger:hover{
+      background-color: brown;
+  }
+ .main1{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .main1 .pic1 img{
+     width: 300px;
+     height: 300px;
+     margin-right: 50px;
+     margin-left: 50px;
+ }
+ .main1 .about{
+ 
+  margin: 40px;
+    width: 55%;
+     height: auto;
+     color: white;
+ }
+ @media screen and (max-width: 530px){
+     .main1 .about{
+         width: 100%;
+     }
+ }
+ .cards{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 35px;
+
+ }
+ .card{
+     width: 180px;
+     height: 180px;
+     border-radius: 25px 0px 25px 0px;
+     box-shadow: 5px 5px 10px black;
+     margin-bottom: 10px;
+    
+  
+ }
+ .card:hover{
+     box-shadow: 10px 10px 10px black;
+ }
+ .card img{
+     width:130px ;
+     height: 100px;
+     margin: 5px auto;
+ }
+ .card .card-text{
+     text-align: center;
+ }
+ h4{
+    text-transform: uppercase;
+    color:white;
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 45px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+ @media screen and (max-width: 530px){
+     .card{
+         width: 140px;
+         height: 170px;
+         margin: 10px;
+     }
+     .card img{
+         width: 90px;
+         height: 80px;
+     }
+     h4{
+         font-size: 15px;
+     }
+     
+ }
+ footer{
+     width: 100%;
+     height: 50px;
+     background-color:white;
+     margin-top: 70px; 
+ }
+
+  /* About Us */
+  .abtmain{
+      width: 55%;
+     height: 200px;
+     margin: 0px auto;
+    margin-bottom: 20px;
+     box-shadow: 1px 1px 40px black;
+      /* background: url("images/banner.png") no-repeat fixed;  */
+  }
+ 
+  .abthead h1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      color: white;
+      padding-top: 50px;
+      letter-spacing: 5px;
+      word-spacing: 2px;
+      text-shadow: 2px 2px 15px black;
+      
+  }
+  .abtpara{
+      display: flex;
+      margin: 0px auto;
+     align-items: center;
+     width: 150px;
+     height: 50px;
+    
+    
+  }
+  .about #para p{
+      word-spacing: 5px;
+      line-height: 22px;
+      letter-spacing: 2px;
+    
+  }
+  .abtpara p{
+      color: white;
+      text-align: center;
+      letter-spacing: 5px;
+      margin: 6px;
+      margin-left: 10px;
+      
+     
+     
+  }
+
+  .abtpara p a{
+      color: white;
+      text-decoration: none;
+  }
+  .pic{
+      width: 250px;
+      height: 300px;
+     margin-bottom: 100px;
+      margin: 10px auto;
+     
+  }
+  .pic img{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .pic img:hover{
+      box-shadow: 10px 10px 20px black;
+      width: 280px;
+      height: 330px;
+      border-radius: 25px;
+  }
+  @media screen and (max-width: 530px){
+    .abthead h1{
+        font-size: 22px;
+    }
+    .mains h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .abtpara p{
+      letter-spacing: normal;
+     text-align: center;
+    }
+    .abtmain{
+        height: 150px;
+    }
+    .pic{
+        width: 200px;
+        height: 230px;
+    } .pic img{
+        width: 200px;
+        height: 230px;
+    }
+  }
+  /* Services */
+  .mians{
+      margin: 10px;
+  }
+  .mains h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .mains p{
+      width: 60%;
+      color: white;
+      margin: 5px auto;
+      letter-spacing: 2px;
+      margin-bottom: 110px;
+  }
+  @media screen and (max-width: 530px){
+      .mains p{
+          width: 90%;
+          text-align: justify;
+         
+      }
+  }
+  /* contact */
+
+  
+
+  .mob{
+      display: flex;
+      color: white;
+   
+      
+  }
+  .mob i{
+      font-size: 28px;
+     
+      
+  }
+  .mob p{
+      margin-left: 10px;
+  
+  }
+  .fa-facebook{
+      margin-right: 5px;
+  }
+  .mob .p1{
+      margin-left: 17px;
+  }
+  .fa-mobile{
+     
+      font-size: 40px !important;
+  }
+
+ .con{
+   
+     display: flex;
+     flex-wrap: wrap;
+    margin-bottom: 100px;
+ }
+.card1, .card2{
+  
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.card2 .form-control{
+    width: 340px;
+    background-color: none !important;
+    text-decoration: none;
+}
+.card2 button{
+  align-items: center;
+
+}
+.abtmain{
+    margin-bottom: 70px;
+}
+.get{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+   text-align: center;
+}
+ @media screen and (max-width: 530px){
+     .card1, .card2{
+         width: 80% !important;
+     }
+     .card2 .form-control{
+         width: 80% !important;
+     }
+     .mob p{
+         width: 80%;
+     }
+     .mob .p1{
+         width: 80%;
+         font-size: 15px;
+     }
+     .get{
+         font-size: 20px;
+     }
+     .card2 button{
+         width: 150px;
+     }
+ }
+ /* skills */
+
+ .pro{
+     color: white;
+     font-size: 20px;
+
+   
+ }
+ 
+ .bar{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    
+}
+.bar1,.bar2{ 
+   width: 450px;
+   margin-bottom: 15px;
+   margin-left: 15px !important;
+    
+  
+}
+.progress{
+    width: 90%;
+    height: 40px;
+    margin-top: 25px;
+}
+.progress > #html, #css, #js, #php, #ps, #wp, #db, #jq{
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    background-color: brown !important;
+    text-align: left !important;
+    padding-left: 15px !important;
+    word-spacing: 245px;
+
+}
+.progress > #css{
+ 
+    word-spacing: 200px !important;
+
+}
+.progress > #js{
+
+    word-spacing: 120px !important;
+
+}
+.progress > #php{
+
+    word-spacing: 75px !important;
+
+}
+.progress > #ps{
+    word-spacing: 190px;
+}
+.progress > #jq{
+    word-spacing: 60px;
+} 
+.progress > #wp{
+    word-spacing: 160px;
+}
+.progress > #db{
+    word-spacing: 40px;
+}
+@media screen and (max-width: 500px){
+    .bar1,.bar2{
+        width: 320px;
+      
+    }
+}
+@media screen and (max-width: 300px){
+    .bar1,.bar2{
+        width: 200px;
+    }
+}
+
+#para1 h1{
+    font-size: 20px;
+    word-spacing: 5px;
+    color: white;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mob a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
